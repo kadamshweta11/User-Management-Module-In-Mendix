@@ -1,9 +1,9 @@
 # User-Management-Module-In-Mendix
 This module covers CRUD operation on User Entity with default password settings, Importing the data from external excel sheet, Exporting/Downloading the user data to excel sheet. Also creating login functionality and rights as per assigned roles (user/admin) .
 
-#Prerequisites 
+# Prerequisites 
 
-Mendix Studio Pro 9.12.4. 
+1. Mendix Studio Pro 9.12.4. 
 
 Create domain models (see Creating a Basic Data Layer) 
 
@@ -18,11 +18,11 @@ Excel Exporter from MarketPlace
  
 
 
-#User CRUD Operation 
+# User CRUD Operation 
 
 On the User_Overview Page Admin Can Perform CRUD operation on the User Entity which is associated with administration.account activity where the default password is saved if the password is not set by the Admin. All the users are displayed using data grid in User_Overview page. 
 
-#Implementation. 
+# Implementation. 
 
 1.Create a Persistable entity named User and then associate it with administration.Account entity also provide an association with userRole entity 
 
@@ -73,13 +73,13 @@ Inserting image...
 
  
 
-#Introduction 
+# Introduction 
 
 Adding large amounts of data to your application can be very time-consuming. In order to save time and effort, this process can be automated using the Excel Importer from the Mendix Marketplace. In this how-to, you will set up import templates and import data into your app using this module. 
 
  
 
-#Screenshot Explanation 
+# Screenshot Explanation 
 
  
 
