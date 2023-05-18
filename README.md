@@ -1,5 +1,5 @@
 # User-Management-Module-In-Mendix
-This module covers CRUD operation on User Entity with default password settings, Importing the data from external excel sheet, Exporting/Downloading the user data to excel sheet. Also creating login functionality and rights as per assigned roles (user/admin) .
+> This module covers CRUD operation on User Entity with default password settings, Importing the data from external excel sheet, Exporting/Downloading the user data to > excel sheet. Also creating login functionality and rights as per assigned roles (user/admin) .
 
 # Prerequisites 
 
@@ -189,10 +189,9 @@ Username (Provided in the email Address excluding “@ and domain name from
 
 email” for e.g. for this email Address “Nagarro@gmail.com ” username will be 
 
-“Nagarro”) default password as well which is “123456789Abc”. 
+` “Nagarro” `) default password as well which is ` “123456789Abc” `. 
 
- 
-           This is all about User Management
+ > This is all about User Management
  
 
  
