@@ -20,7 +20,7 @@
 
 # User CRUD Operation 
 
-On the User_Overview Page Admin Can Perform CRUD operation on the User Entity which is associated with administration.account activity where the default password is saved if the password is not set by the Admin. All the users are displayed using data grid in User_Overview page. 
+> On the User_Overview Page Admin Can Perform CRUD operation on the User Entity which is associated with administration.account activity where the default password is saved > if the password is not set by the Admin. All the users are displayed using data grid in User_Overview page. 
 
 ## Implementation. 
 
@@ -75,7 +75,7 @@ Inserting image...
 
 ## Introduction 
 
-Adding large amounts of data to your application can be very time-consuming. In order to save time and effort, this process can be automated using the Excel Importer from the Mendix Marketplace. In this how-to, you will set up import templates and import data into your app using this module. 
+> Adding large amounts of data to your application can be very time-consuming. In order to save time and effort, this process can be automated using the Excel Importer from > the Mendix Marketplace. In this how-to, you will set up import templates and import data into your app using this module. 
 
  
 
@@ -83,7 +83,7 @@ Adding large amounts of data to your application can be very time-consuming. In 
 
  
 
-Before you can start importing data into your application, you first need to set up the data structure and GUI by following these steps: 
+> Before you can start importing data into your application, you first need to set up the data structure and GUI by following these steps: 
 
  
 
@@ -123,7 +123,7 @@ In OpenImport_Page microflow Retriving the Template from Database and Creating a
 
 
 
-Retrieving the user selected template from frontend and validate the selected file from user then import it to user Excel Entity then call a microflow “TDFEUTU_TransferDataFromUserExcelToUser” and pass object “Template”. 
+> Retrieving the user selected template from frontend and validate the selected file from user then import it to user Excel Entity then call a microflow > “TDFEUTU_TransferDataFromUserExcelToUser” and pass object “Template”. 
 
 12. Create a microflow shown below: 
 
@@ -137,7 +137,7 @@ Retrieving the Excel Imported List of User which is in ExcelUser Entity and Tran
 
 ## Introduction 
 
-This Feature Exports the User data to Excel Document. 
+> This Feature Exports the User data to Excel Document. 
 
  
 
@@ -155,13 +155,13 @@ For further Implementation do refer the Excel Export documentation.
 
 ## For Admin Security: 
 
-All the Privileges are assigned. 
+> All the Privileges are assigned. 
 
  
 
 ## For Users Security: 
 
-Export to Excel and Search User only privileges are assigned. 
+> Export to Excel and Search User only privileges are assigned. 
 
  
 
